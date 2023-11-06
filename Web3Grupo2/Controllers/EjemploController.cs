@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
 using Web3Grupo2.Models;
 using Web3Grupo2.Repositories;
 
@@ -15,9 +16,21 @@ namespace Web3Grupo2.Controllers
         }
 
         // GET: EjemploController/Details/5
-        public ActionResult Details(int id)
+
+        public ActionResult Details(string id)
         {
-            return View();
+            var ejemplo = db.GetEjemploById(id);
+            if (ejemplo == null)
+            {
+                return NotFound(); // Maneja el caso en que el elemento no existe
+            }
+
+            return View(ejemplo);
+        }
+        public ActionResult Listado()
+        {
+            var ejemplos = db.GetAllEjemplos(); // Supongamos que tienes un método "GetEjemplos" en tu base de datos que obtiene todos los elementos "Ejemplo".
+            return View(ejemplos);
         }
 
         // GET: EjemploController/Create
@@ -29,16 +42,20 @@ namespace Web3Grupo2.Controllers
         // POST: EjemploController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Persona persona)
         {
             try
             {
-                var ejemplo = new Ejemplo()
+                /*ObjectId nuevoObjectId = ObjectId.GenerateNewId();
+                persona.Casa = new Direccion
                 {
-                    Name = collection["Name"]
-                };
-                db.InsertEjemplo(ejemplo);
-                return RedirectToAction(nameof(Index));
+                    Id= nuevoObjectId,
+                    Calle = persona.Casa.Calle,
+                    Altura = persona.Casa.Altura
+                };*/
+                
+                db.InsertEjemplo(persona);
+                return RedirectToAction("Listado");
             }
             catch
             {
@@ -47,45 +64,59 @@ namespace Web3Grupo2.Controllers
         }
 
         // GET: EjemploController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(string id)
         {
-            return View();
+            var ejemplo = db.GetEjemploById(id);
+            if (ejemplo == null)
+            {
+                return NotFound(); // Maneja el caso en que el elemento no existe
+            }
+
+            return View(ejemplo);
         }
 
         // POST: EjemploController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(string id, Persona modificado)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
+
+            var ejemplo = db.GetEjemploById(id);
+            
+            if (ejemplo == null)
+            {                
+                return NotFound(); 
             }
-            catch
-            {
-                return View();
-            }
+            ejemplo.Nombre = modificado.Nombre;
+            ejemplo.Apellido = modificado.Apellido;
+            ejemplo.Casa = modificado.Casa;
+            
+            db.UpdateEjemplo(ejemplo);
+
+            return RedirectToAction("Listado");
+
         }
 
-        // GET: EjemploController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
+      
 
         // POST: EjemploController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(string id)
         {
-            try
+
+            var ejemplo = db.GetEjemploById(id);
+
+            if (ejemplo == null)
             {
-                return RedirectToAction(nameof(Index));
+                return NotFound();
             }
-            catch
-            {
-                return View();
-            }
+            
+            db.DeleteEjemplo(ejemplo);
+
+            return RedirectToAction("Listado");
+
+
         }
     }
 }

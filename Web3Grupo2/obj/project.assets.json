@@ -3728,6 +3728,37 @@
         "runtime": {
           "lib/net6.0/ZstdSharp.dll": {}
         }
+      },
+      "Web3Grupo2.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.12",
+          "MongoDB.Driver": "2.22.0",
+          "MongoDB.Driver.Core": "2.22.0"
+        },
+        "compile": {
+          "bin/placeholder/Web3Grupo2.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Web3Grupo2.Data.dll": {}
+        }
+      },
+      "Web3Grupo2.Logica/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.12",
+          "MongoDB.Driver": "2.22.0",
+          "MongoDB.Driver.Core": "2.22.0",
+          "Web3Grupo2.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Web3Grupo2.Logica.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Web3Grupo2.Logica.dll": {}
+        }
       }
     }
   },
@@ -10699,6 +10730,16 @@
         "zstdsharp.port.0.6.2.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "Web3Grupo2.Data/1.0.0": {
+      "type": "project",
+      "path": "../Web3Grupo2.Data/Web3Grupo2.Data.csproj",
+      "msbuildProject": "../Web3Grupo2.Data/Web3Grupo2.Data.csproj"
+    },
+    "Web3Grupo2.Logica/1.0.0": {
+      "type": "project",
+      "path": "../Web3Grupo2.Logica/Web3Grupo2.Logica.csproj",
+      "msbuildProject": "../Web3Grupo2.Logica/Web3Grupo2.Logica.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10708,7 +10749,9 @@
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.12",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16",
       "MongoDB.Driver >= 2.22.0",
-      "MongoDB.Driver.Core >= 2.22.0"
+      "MongoDB.Driver.Core >= 2.22.0",
+      "Web3Grupo2.Data >= 1.0.0",
+      "Web3Grupo2.Logica >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10718,9 +10761,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2\\Web3Grupo2.csproj",
-      "projectName": "Web3Grupo2",
-      "projectPath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2\\Web3Grupo2.csproj",
+      "projectUniqueName": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2\\Web3Grupo2.Web.csproj",
+      "projectName": "Web3Grupo2.Web",
+      "projectPath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2\\Web3Grupo2.Web.csproj",
       "packagesPath": "C:\\Users\\Gabyy\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2\\obj\\",
       "projectStyle": "PackageReference",
@@ -10743,7 +10786,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj": {
+              "projectPath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj"
+            },
+            "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Logica\\Web3Grupo2.Logica.csproj": {
+              "projectPath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Logica\\Web3Grupo2.Logica.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

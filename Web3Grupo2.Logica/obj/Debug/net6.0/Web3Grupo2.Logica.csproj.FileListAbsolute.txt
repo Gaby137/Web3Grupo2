@@ -1,0 +1,17 @@
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Logica.deps.json
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Logica.runtimeconfig.json
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Logica.dll
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Logica.pdb
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Data.dll
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Data.pdb
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.csproj.AssemblyReference.cache
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.AssemblyInfoInputs.cache
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.AssemblyInfo.cs
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.csproj.CoreCompileInputs.cache
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.csproj.CopyComplete
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.dll
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\refint\Web3Grupo2.Logica.dll
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.pdb
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.genruntimeconfig.cache
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\ref\Web3Grupo2.Logica.dll

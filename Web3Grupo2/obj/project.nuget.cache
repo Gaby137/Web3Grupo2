@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RhTWli8zpQ3w/7K8QgrJGGNWJ7MIwqpaKN/0H2Qpk1yOkYDENWR2CCdB1LaOhjq5YkPZiHN/BwrRHiEPsVgATA==",
+  "dgSpecHash": "FRJ8P9OGj4v8MQg2dEJ+N/f0CaIUbgGVrWfegnsQ+Yv3RsUPIoZEFpocW6If96xMr0j/RfcJ9ZUm9NOONR+1EA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2\\Web3Grupo2.csproj",
+  "projectFilePath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2\\Web3Grupo2.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabyy\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Gabyy\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

@@ -1,7 +1,10 @@
+using Web3Grupo2.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<MongoDBRepository>();
 
 var app = builder.Build();
 

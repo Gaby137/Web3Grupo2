@@ -1,0 +1,14 @@
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\bin\Debug\net6.0\Web3Grupo2.Data.deps.json
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\bin\Debug\net6.0\Web3Grupo2.Data.runtimeconfig.json
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\bin\Debug\net6.0\Web3Grupo2.Data.dll
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\bin\Debug\net6.0\Web3Grupo2.Data.pdb
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\obj\Debug\net6.0\Web3Grupo2.Data.csproj.AssemblyReference.cache
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\obj\Debug\net6.0\Web3Grupo2.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\obj\Debug\net6.0\Web3Grupo2.Data.AssemblyInfoInputs.cache
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\obj\Debug\net6.0\Web3Grupo2.Data.AssemblyInfo.cs
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\obj\Debug\net6.0\Web3Grupo2.Data.csproj.CoreCompileInputs.cache
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\obj\Debug\net6.0\Web3Grupo2.Data.dll
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\obj\Debug\net6.0\refint\Web3Grupo2.Data.dll
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\obj\Debug\net6.0\Web3Grupo2.Data.pdb
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\obj\Debug\net6.0\Web3Grupo2.Data.genruntimeconfig.cache
+C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Data\obj\Debug\net6.0\ref\Web3Grupo2.Data.dll
