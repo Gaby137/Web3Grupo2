@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Cosas de gaby\\Proyecto base nosql\\Web3Grupo2\\Web3Grupo2.Logica\\Web3Grupo2.Logica.csproj": {}
+    "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Logica\\Web3Grupo2.Logica.csproj": {}
   },
   "projects": {
-    "D:\\Cosas de gaby\\Proyecto base nosql\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj": {
+    "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cosas de gaby\\Proyecto base nosql\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj",
         "projectName": "Web3Grupo2.Data",
-        "projectPath": "D:\\Cosas de gaby\\Proyecto base nosql\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj",
-        "packagesPath": "C:\\Users\\Segros\\.nuget\\packages\\",
-        "outputPath": "D:\\Cosas de gaby\\Proyecto base nosql\\Web3Grupo2\\Web3Grupo2.Data\\obj\\",
+        "projectPath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj",
+        "packagesPath": "C:\\Users\\Gabyy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Segros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gabyy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -85,17 +90,21 @@
         }
       }
     },
-    "D:\\Cosas de gaby\\Proyecto base nosql\\Web3Grupo2\\Web3Grupo2.Logica\\Web3Grupo2.Logica.csproj": {
+    "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Logica\\Web3Grupo2.Logica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Cosas de gaby\\Proyecto base nosql\\Web3Grupo2\\Web3Grupo2.Logica\\Web3Grupo2.Logica.csproj",
+        "projectUniqueName": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Logica\\Web3Grupo2.Logica.csproj",
         "projectName": "Web3Grupo2.Logica",
-        "projectPath": "D:\\Cosas de gaby\\Proyecto base nosql\\Web3Grupo2\\Web3Grupo2.Logica\\Web3Grupo2.Logica.csproj",
-        "packagesPath": "C:\\Users\\Segros\\.nuget\\packages\\",
-        "outputPath": "D:\\Cosas de gaby\\Proyecto base nosql\\Web3Grupo2\\Web3Grupo2.Logica\\obj\\",
+        "projectPath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Logica\\Web3Grupo2.Logica.csproj",
+        "packagesPath": "C:\\Users\\Gabyy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Logica\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Segros\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gabyy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,14 +112,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Cosas de gaby\\Proyecto base nosql\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj": {
-                "projectPath": "D:\\Cosas de gaby\\Proyecto base nosql\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj"
+              "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj": {
+                "projectPath": "C:\\Users\\Gabyy\\source\\repos\\Web3Grupo2\\Web3Grupo2.Data\\Web3Grupo2.Data.csproj"
               }
             }
           }

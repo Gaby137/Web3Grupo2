@@ -6,9 +6,9 @@ using Web3Grupo2.Repositories;
 
 namespace Web3Grupo2.Controllers
 {
-    public class EjemploController : Controller
+    public class PersonaController : Controller
     {
-        private IEjemploCollection db = new EjemploCollection();
+        private IEjemploCollection db = new PersonaCollection();
         // GET: EjemploController
         public ActionResult Index()
         {
@@ -100,8 +100,7 @@ namespace Web3Grupo2.Controllers
       
 
         // POST: EjemploController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        
         public ActionResult Delete(string id)
         {
 

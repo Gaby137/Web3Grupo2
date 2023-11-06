@@ -14,12 +14,12 @@ public interface IEjemploCollection
     bool UpdateEjemplo(Persona ejemplo);
     bool DeleteEjemplo(Persona ejemplo);
 }
-public class EjemploCollection : IEjemploCollection
+public class PersonaCollection : IEjemploCollection
 {
     internal MongoDBRepository _repository = new MongoDBRepository();
     private IMongoCollection<Persona> Collection;
 
-    public EjemploCollection()
+    public PersonaCollection()
     {
         Collection = _repository.db.GetCollection<Persona>("Ejemplos");
     }
@@ -28,14 +28,14 @@ public class EjemploCollection : IEjemploCollection
         return Collection.Find(_ => true).ToList();
     }
 
-    /*
+    
     public Persona GetEjemploById(string id)
     {
 
         ObjectId id1 = ObjectId.Parse(id);
         var filter = Builders<Persona>.Filter.Eq(e => e.Id, id1);
         return Collection.Find(filter).FirstOrDefault();
-    } */
+    } 
 
     public void InsertEjemplo(Persona ejemplo)
     {
