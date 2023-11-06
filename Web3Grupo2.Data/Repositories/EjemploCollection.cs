@@ -28,13 +28,14 @@ public class EjemploCollection : IEjemploCollection
         return Collection.Find(_ => true).ToList();
     }
 
+    /*
     public Persona GetEjemploById(string id)
     {
 
         ObjectId id1 = ObjectId.Parse(id);
         var filter = Builders<Persona>.Filter.Eq(e => e.Id, id1);
         return Collection.Find(filter).FirstOrDefault();
-    }
+    } */
 
     public void InsertEjemplo(Persona ejemplo)
     {

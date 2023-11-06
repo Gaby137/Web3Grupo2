@@ -15,3 +15,20 @@ C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\refint
 C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.pdb
 C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.genruntimeconfig.cache
 C:\Users\Gabyy\source\repos\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\ref\Web3Grupo2.Logica.dll
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Logica.deps.json
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Logica.runtimeconfig.json
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Logica.dll
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Logica.pdb
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Data.dll
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\bin\Debug\net6.0\Web3Grupo2.Data.pdb
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.csproj.AssemblyReference.cache
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.AssemblyInfoInputs.cache
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.AssemblyInfo.cs
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.csproj.CoreCompileInputs.cache
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.csproj.CopyComplete
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.dll
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\refint\Web3Grupo2.Logica.dll
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.pdb
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\Web3Grupo2.Logica.genruntimeconfig.cache
+D:\Cosas de gaby\Proyecto base nosql\Web3Grupo2\Web3Grupo2.Logica\obj\Debug\net6.0\ref\Web3Grupo2.Logica.dll
